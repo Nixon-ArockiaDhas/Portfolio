@@ -1,259 +1,289 @@
-    @font-face {
-        font-family: abrade;
-        src: url(../fonts/Abrade.otf) format("opentype");
-    }
-    
-    @font-face {
-        font-family: abrade-medium;
-        src: url(../fonts/Abrade\ Medium.otf) format("opentype");
-    }
-    
-    @font-face {
-        font-family: gameofsquids;
-        src: url(../fonts/GameOfSquids.otf) format("opentype");
-    }
-    
-    @font-face {
-        font-family: abrade-book;
-        src: url(../fonts/Abrade\ Book.otf) format("opentype");
-    }
-    
-    html,
-    body {
-        overflow-x: hidden !important;
-        margin: 0 !important;
-        padding: 0 !important;
-    }
-    
-    .navtab {
-        padding: 20px 80px 19px;
-    }
-    
-    .navbar-brand {
-        font-family: gameofsquids;
-        color: #000;
-        font-size: 30px;
-        position: absolute;
-        left: 50%;
-        margin-left: -50px !important;
-        display: block;
-    }
-    
-    .home {
-        font-family: abrade-medium;
-        font-size: 16px;
-        color: #000 !important;
-        border-bottom: 3px solid;
-        border-radius: 0px;
-        border-color: #176CEB;
-        padding-left: 0% !important;
-        padding-right: 0% !important;
-        padding-bottom: 4px !important;
-    }
-    
-    .contact {
-        font-family: abrade;
-        font-size: 16px;
-        color: #3B4A61 !important;
-        position: absolute;
-        left: 90%;
-        /* margin-left: -50px !important; */
-        display: block;
-    }
-    
-    .nav-img {
-        width: 20px;
-        height: 20px;
-    }
-    
-    .i-item {
-        font-family: abrade;
-        font-size: 16px;
-        color: #3B4A61 !important;
-        padding-left: 10px;
-    }
-    
-    .dropdown-item {
-        padding: 15px 20px 15px;
-    }
-    
-    #Hero {
-        padding: 80px 80px;
-    }
-    
-    h1 {
-        font-family: abrade-book;
-        font-size: 65px;
-        padding-bottom: 85px;
-        color: #020E21;
-        text-transform: uppercase;
-        letter-spacing: 5px;
-        overflow: hidden;
-    }
-    
-    .color-text {
-        font-size: 65px;
-        font-weight: 700;
-        background: linear-gradient( 60deg, #5ff281, #4f86f2, #a65FF2, #f25fd0, #f25f61, #f2cb5f);
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-size: 400%;
-        animation: animate 10s linear infinite;
-    }
-    
-    @keyframes animate {
-        to {
-            background-position: 400%;
+        @font-face {
+            font-family: abrade;
+            src: url(../fonts/Abrade.otf) format("opentype");
         }
-    }
-    
-    .text2 {
-        padding-left: 300px;
-    }
-    
-    .elipse {
-        height: 250px;
-        width: auto;
-        position: absolute;
-        top: 450px;
-        left: 78%;
-        z-index: -1;
-    }
-    
-    h6 {
-        font-family: abrade;
-        font-weight: bolder;
-        font-size: 20px;
-        color: #020E21;
-        letter-spacing: 1px;
-    }
-    
-    p {
-        font-family: abrade;
-        font-size: 36px;
-        line-height: 72px;
-        letter-spacing: 1px;
-        color: #020E21;
-    }
-    
-    #aboutme {
-        padding: 80px 80px;
-        background-color: #F7F8FB;
-    }
-    
-    .list-text {
-        font-family: abrade;
-        font-size: 20px;
-        line-height: 60px;
-        letter-spacing: 2%;
-        color: #3B4A61;
-    }
-    
-    #myworks {
-        padding: 80px 80px;
-    }
-    
-    h2 {
-        font-family: abrade;
-        font-size: 36px;
-        color: #020E21;
-        font-weight: bold;
-    }
-    
-    .cardd-1 {
-        background-color: #E3FCFD;
-        border-radius: 8px;
-    }
-    
-    .cardd-2 {
-        background-color: #EDF3FF;
-        border-radius: 8px;
-    }
-    
-    .cardd-3 {
-        background-color: #FDF6F0;
-        border-radius: 8px;
-        padding-top: 20px;
-        margin-top: 20px;
-    }
-    
-    .cardd-4 {
-        background-color: #D6F3F3;
-        border-radius: 8px;
-        padding-top: 20px;
-        margin-top: 20px;
-    }
-    
-    .main-overlay {
-        position: relative;
-    }
-    
-    .workimage {
-        border-radius: 8px;
-        border: 8px solid #fff;
-        box-shadow: 0 10px 16px rgba(0, 0, 0, 0.10);
-    }
-    
-    .overlay {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: 0;
-        opacity: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(0, 0, 0, 0.75);
-        border-radius: 8px;
-        transition: 01s ease;
-    }
-    
-    .main-overlay:hover .overlay {
-        opacity: 1;
-    }
-    
-    .view {
-        position: absolute;
-        top: 41%;
-        left: 46%;
-        color: #fff;
-        font-size: 28px;
-    }
-    
-    #tools {
-        padding: 80px 80px;
-        background-color: #F7F8FB;
-        position: relative;
-    }
-    
-    .elipse2 {
-        height: 250px;
-        width: auto;
-        position: absolute;
-        z-index: 1;
-        right: 40px;
-        bottom: 100px;
-    }
-    
-    #guru {
-        padding: 80px 80px;
-        position: relative;
-    }
-    
-    .contact-icon {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    
-    #footer {
-        padding: 80px 80px 40px 80px;
-        background-color: #001F4E;
-    }
-    
-    .main-button {
-        margin-top: 50px;
-        padding-left: 25px;
-        padding-right: 25px;
-        border-radius: 5px;
-    }
+        
+        @font-face {
+            font-family: abrade-medium;
+            src: url(../fonts/Abrade\ Medium.otf) format("opentype");
+        }
+        
+        @font-face {
+            font-family: gameofsquids;
+            src: url(../fonts/GameOfSquids.otf) format("opentype");
+        }
+        
+        @font-face {
+            font-family: abrade-book;
+            src: url(../fonts/Abrade\ Book.otf) format("opentype");
+        }
+        
+        html,
+        body {
+            overflow-x: hidden !important;
+            margin: 0 !important;
+            padding: 0 !important;
+        }
+        
+        .navtab {
+            padding: 20px 80px 19px;
+        }
+        
+        .navbar-brand {
+            font-family: gameofsquids;
+            color: #000;
+            font-size: 30px;
+            position: absolute;
+            left: 50%;
+            margin-left: -50px !important;
+            display: block;
+        }
+        
+        .home {
+            font-family: abrade-medium;
+            font-size: 16px;
+            color: #000 !important;
+            border-bottom: 3px solid;
+            border-radius: 0px;
+            border-color: #176CEB;
+            padding-left: 0% !important;
+            padding-right: 0% !important;
+            padding-bottom: 4px !important;
+        }
+        
+        .contact {
+            font-family: abrade;
+            font-size: 16px;
+            color: #3B4A61 !important;
+            position: absolute;
+            left: 90%;
+            /* margin-left: -50px !important; */
+            display: block;
+        }
+        
+        .nav-img {
+            width: 20px;
+            height: 20px;
+        }
+        
+        .i-item {
+            font-family: abrade;
+            font-size: 16px;
+            color: #3B4A61 !important;
+            padding-left: 10px;
+        }
+        
+        .dropdown-item {
+            padding: 15px 20px 15px;
+        }
+        
+        #Hero {
+            padding: 80px 80px;
+        }
+        
+        h1 {
+            font-family: abrade-book;
+            font-size: 65px;
+            padding-bottom: 85px;
+            color: #020E21;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            overflow: hidden;
+        }
+        
+        .color-text {
+            font-size: 65px;
+            font-weight: 700;
+            background: linear-gradient( 60deg, #5ff281, #4f86f2, #a65FF2, #f25fd0, #f25f61, #f2cb5f);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-size: 400%;
+            animation: animate 10s linear infinite;
+        }
+        
+        @keyframes animate {
+            to {
+                background-position: 400%;
+            }
+        }
+        
+        .text2 {
+            padding-left: 300px;
+        }
+        
+        .text3 {
+            text-align: right;
+        }
+        
+        .elipse {
+            height: 250px;
+            width: auto;
+            position: absolute;
+            top: 450px;
+            left: 78%;
+            z-index: -1;
+        }
+        
+        h6 {
+            font-family: abrade;
+            font-weight: bolder;
+            font-size: 20px;
+            color: #020E21;
+            letter-spacing: 1px;
+        }
+        
+        p {
+            font-family: abrade;
+            font-size: 36px;
+            line-height: 72px;
+            letter-spacing: 1px;
+            color: #020E21;
+        }
+        
+        #aboutme {
+            padding: 80px 80px;
+            background-color: #F7F8FB;
+        }
+        
+        .list-text {
+            font-family: abrade;
+            font-size: 20px;
+            line-height: 60px;
+            letter-spacing: 2%;
+            color: #3B4A61;
+        }
+        
+        #myworks {
+            padding: 80px 80px;
+        }
+        
+        h2 {
+            font-family: abrade;
+            font-size: 36px;
+            color: #020E21;
+            font-weight: bold;
+        }
+        
+        .cardd-1 {
+            background-color: #E3FCFD;
+            border-radius: 8px;
+        }
+        
+        .cardd-2 {
+            background-color: #EDF3FF;
+            border-radius: 8px;
+        }
+        
+        .cardd-3 {
+            background-color: #FDF6F0;
+            border-radius: 8px;
+            padding-top: 20px;
+            margin-top: 20px;
+        }
+        
+        .cardd-4 {
+            background-color: #D6F3F3;
+            border-radius: 8px;
+            padding-top: 20px;
+            margin-top: 20px;
+        }
+        
+        .main-overlay {
+            position: relative;
+        }
+        
+        .workimage {
+            border-radius: 8px;
+            border: 8px solid #fff;
+            box-shadow: 0 10px 16px rgba(0, 0, 0, 0.10);
+        }
+        
+        .overlay {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            opacity: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.75);
+            border-radius: 8px;
+            transition: 01s ease;
+        }
+        
+        .main-overlay:hover .overlay {
+            opacity: 1;
+        }
+        
+        .view {
+            position: absolute;
+            top: 41%;
+            left: 46%;
+            color: #fff;
+            font-size: 28px;
+        }
+        
+        #tools {
+            padding: 80px 80px;
+            background-color: #F7F8FB;
+            position: relative;
+        }
+        
+        .elipse2 {
+            height: 250px;
+            width: auto;
+            position: absolute;
+            z-index: 1;
+            right: 40px;
+            bottom: 100px;
+        }
+        
+        #guru {
+            padding: 80px 80px;
+            position: relative;
+        }
+        
+        .contact-icon {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        
+        #footer {
+            padding: 80px 80px 40px 80px;
+            background-color: #001F4E;
+        }
+        
+        .main-button {
+            margin-top: 50px;
+            padding-left: 25px;
+            padding-right: 25px;
+            border-radius: 5px;
+        }
+        
+        @media screen and (max-width: 990px) {
+            #hero {
+                text-align: center;
+            }
+            #myworks {
+                text-align: center;
+            }
+            h1 {
+                text-align: left;
+            }
+            .text2 {
+                padding-left: 0;
+            }
+            .text3 {
+                padding-left: 0;
+            }
+            .elipse {
+                height: 250px;
+                width: auto;
+                position: absolute;
+                top: 400px;
+                left: 25%;
+                z-index: -1;
+            }
+        }
