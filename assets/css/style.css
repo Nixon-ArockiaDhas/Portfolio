@@ -112,7 +112,7 @@
 
 
    .hero-content {
-       font-family: sans-serif;
+    font-family: 'Anurati' !important;
        display: grid;
        align-items: center;
        justify-content: center;
@@ -168,7 +168,7 @@
        font-style: normal;
        font-weight: 400;
        font-size: 32px;
-       line-height: 38px;
+       line-height: 44px;
        letter-spacing: 0.02em;
        color: #011113;
    }
@@ -276,7 +276,7 @@
        font-family: "San Fransisco";
        font-weight: 400;
        font-size: 32px;
-       line-height: 38px;
+       line-height: 44px;
        letter-spacing: 0.02em;
        color: #011113;
    }
@@ -341,14 +341,50 @@
        }
    }
 
-   @media(min-width: 414px) {
+   @media only screen and (max-device-width: 480px) {
     .hero-head {
         font-family: 'Anurati' !important;
         font-size: 80px !important;
         text-align: center;
         color: #011113;
+        line-height: normal;
  
     }
+    .hero-content {
+        font-family: 'Anurati' !important;
+           display: grid;
+           align-items: center;
+           justify-content: center;
+           align-self: center;
+           place-content: center;
+           height: 414px !important;
+       }
+       .Contect-text {
+        font-family: "San Fransisco";
+        font-size: 24px;
+        line-height: 44px;
+        letter-spacing: 0.02em;
+        color: #011113;
+    }
+    .about-text {
+        font-family: "San Fransisco";
+        font-style: normal;
+        font-size: 18px;
+        line-height: 44px;
+        letter-spacing: 0.02em;
+        color: #011113;
+    }
+    
+   .about_list {
+    font-family: "San Fransisco";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #324345;
+}
+
+ 
 .nav-img{
     size: 20px !important;
     width: 15% !important;
